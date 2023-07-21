@@ -1,0 +1,23 @@
+@import './utilidades/reset';
+@import './utilidades/general';
+@import './secciones/header';
+@import './secciones/main-index';
+@import './secciones/main-arma-tu-pc';
+@import './secciones/main-carrito';
+@import './secciones/main-contacto';
+@import './secciones/main-productos';
+@font-face {
+    font-family: "RedHatDisplay";
+    src: url(../assets/tipografia/RedHatDisplay-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    font-family: "RedHatDisplay";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
