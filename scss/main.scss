@@ -1,5 +1,6 @@
 @import './utilidades/reset';
 @import './utilidades/general';
+
 @import './secciones/header';
 @import './secciones/main-index';
 @import './secciones/main-arma-tu-pc';
@@ -7,6 +8,7 @@
 @import './secciones/main-contacto';
 @import './secciones/main-productos';
 @import './secciones/footer';
+
 @font-face {
     font-family: "RedHatDisplay";
     src: url(../assets/tipografia/RedHatDisplay-VariableFont_wght.ttf);
