@@ -16,7 +16,9 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand" href="./index.html">Logo</a>
+              <div class="logo">
+              <a class="navbar-brand" href="./index.html ">logo</a>
+              </div>
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -56,10 +58,59 @@
           </nav>
     </header>
     <main>
-        <img src="./assets/img/mothers.jpg" alt="mothers promo">
-        <img src="./assets/img/perifericso.jpg" alt="perifericos promo">
-        <img src="./assets/img/placasdevideo.jpg" alt="placas de video promo">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/cpu-intel.jpeg" class="d-block w-100" alt="cpu-intel">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/silla.jpeg" class="d-block w-100" alt="silla">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/monitores.jpeg" class="d-block w-100" alt="monitores">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/notebooks.jpeg" class="d-block w-100" alt="notebooks">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/perifericos.jpeg" class="d-block w-100" alt="perifericos">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/ram-delta.jpeg" class="d-block w-100" alt="ram-delta ">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
+    <footer class="footer p-3">
+      <div class="container text-center p-3">
+          <div class="row">
+            <div class="col d-flex flex-column">
+              <a href="#">Home</a>
+              <a href="#">Top</a>
+            </div>
+            <div class="col d-flex flex-column">
+              <a href="#">Cursos de Reparacion PC</a>
+              <a href="#">Cursos de Armado PC</a>
+            </div>
+            <div class="col d-flex flex-column">
+              <a href="#">Contacto</a>
+              <a href="#">Sedes</a>
+              <a href="#">Telefonos</a>
+            </div>
+          </div>
+        </div>
+
+      <p>Copyright © 2020-2023 DataPress Multimedia - Director: Esteban Cuello</p>
+      <p>Permitida su reproducción solicitando autorización</p>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
