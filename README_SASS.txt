@@ -24,4 +24,7 @@
     a. abrir la consola con ctrl+ñ
     b. npm run watch-css
 
+Framework:
+https://www.figma.com/file/XkbeklwkUZPUAD1T92S6gI/Untitled?type=design&node-id=13%3A17&t=NiYiFLn6vA2wfzA5-1
+
 //FIN
